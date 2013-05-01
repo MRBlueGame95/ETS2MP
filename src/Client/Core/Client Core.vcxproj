@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{523CBD33-35D9-4C9A-8DB1-54F267ACEC47}</ProjectGuid>
+    <RootNamespace>ClientCore</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Binary\$(Configuration)\</OutDir>
+    <TargetName>Client_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>Client</TargetName>
+    <OutDir>$(SolutionDir)Binary\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>"../../Vendor/RakNet/source";"../../Shared/";"./";"../../Vendor/DXSDK/Include/";"../../Vendor/Detours/";</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4409;</DisableSpecificWarnings>
+      <PreprocessorDefinitions>DEBUG;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>"../../libs/Debug";"../../Vendor/DXSDK/Lib/x86/";"../../Vendor/Detours/";</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;RakNet.lib;detours.lib;dxguid.lib;dinput8.lib;d3d9.lib;d3dx9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>"../../Vendor/RakNet/source";"../../Shared/";"./";"../../Vendor/DXSDK/Include/";"../../Vendor/Detours/";</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;4409;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>"../../libs/Release";"../../Vendor/DXSDK/Lib/x86/";"../../Vendor/Detours/";</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;RakNet.lib;detours.lib;dxguid.lib;dinput8.lib;d3d9.lib;d3dx9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Shared\Common.h" />
+    <ClInclude Include="..\..\Shared\Libraries\CLibrary.h" />
+    <ClInclude Include="..\..\Shared\Logger\CLogger.h" />
+    <ClInclude Include="..\..\Shared\Memory\Memory.h" />
+    <ClInclude Include="..\..\Shared\Network\CPacketManager.h" />
+    <ClInclude Include="..\..\Shared\Utils\SharedUtils.h" />
+    <ClInclude Include="..\..\Shared\Version.h" />
+    <ClInclude Include="Client\CClient.h" />
+    <ClInclude Include="Game\Archive\CSCSArchive.h" />
+    <ClInclude Include="Game\CGameHooks.h" />
+    <ClInclude Include="Game\CGameOffsets.h" />
+    <ClInclude Include="Game\CGamePatches.h" />
+    <ClInclude Include="Game\CGameVars.h" />
+    <ClInclude Include="Game\ETS2\CameraETS2.h" />
+    <ClInclude Include="Game\ETS2\CConsole.h" />
+    <ClInclude Include="Game\ETS2\EconomyETS2.h" />
+    <ClInclude Include="Game\ETS2\GameETS2.h" />
+    <ClInclude Include="Game\ETS2\TruckETS2.h" />
+    <ClInclude Include="Graphics\CChat.h" />
+    <ClInclude Include="Graphics\CGraphics.h" />
+    <ClInclude Include="Graphics\Hook\CDirect3D9Hook.h" />
+    <ClInclude Include="Graphics\Hook\Proxy\IDirect3D9Proxy.h" />
+    <ClInclude Include="Graphics\Hook\Proxy\IDirect3D9ProxyEx.h" />
+    <ClInclude Include="Graphics\Hook\Proxy\IDirect3DDevice9Proxy.h" />
+    <ClInclude Include="Graphics\Hook\Proxy\IDirect3DDevice9ProxyEx.h" />
+    <ClInclude Include="Hooks\DirectInput\CDirectInput8Hook.h" />
+    <ClInclude Include="Hooks\DirectInput\IDirectInput8Proxy.h" />
+    <ClInclude Include="Hooks\DirectInput\IDirectInputDevice8Proxy.h" />
+    <ClInclude Include="Hooks\WindowProcess\CWindowProcess.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Network\CNetwork.h" />
+    <ClInclude Include="Includes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Shared\Libraries\CLibrary.cpp" />
+    <ClCompile Include="..\..\Shared\Logger\CLogger.cpp" />
+    <ClCompile Include="..\..\Shared\Memory\Memory.cpp" />
+    <ClCompile Include="..\..\Shared\Network\CPacketManager.cpp" />
+    <ClCompile Include="..\..\Shared\Utils\SharedUtils.cpp" />
+    <ClCompile Include="Client\CClient.cpp" />
+    <ClCompile Include="Game\Archive\CSCSArchive.cpp" />
+    <ClCompile Include="Game\CGameHooks.cpp" />
+    <ClCompile Include="Game\CGameOffsets.cpp" />
+    <ClCompile Include="Game\CGamePatches.cpp" />
+    <ClCompile Include="Game\CGameVars.cpp" />
+    <ClCompile Include="Game\ETS2\CConsole.cpp" />
+    <ClCompile Include="Graphics\CChat.cpp" />
+    <ClCompile Include="Graphics\CGraphics.cpp" />
+    <ClCompile Include="Graphics\Hook\CDirect3D9Hook.cpp" />
+    <ClCompile Include="Graphics\Hook\Proxy\IDirect3D9Proxy.cpp" />
+    <ClCompile Include="Graphics\Hook\Proxy\IDirect3D9ProxyEx.cpp" />
+    <ClCompile Include="Graphics\Hook\Proxy\IDirect3DDevice9Proxy.cpp" />
+    <ClCompile Include="Graphics\Hook\Proxy\IDirect3DDevice9ProxyEx.cpp" />
+    <ClCompile Include="Hooks\DirectInput\CDirectInput8Hook.cpp" />
+    <ClCompile Include="Hooks\DirectInput\IDirectInput8Proxy.cpp" />
+    <ClCompile Include="Hooks\DirectInput\IDirectInputDevice8Proxy.cpp" />
+    <ClCompile Include="Hooks\WindowProcess\CWindowProcess.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Network\CNetwork.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

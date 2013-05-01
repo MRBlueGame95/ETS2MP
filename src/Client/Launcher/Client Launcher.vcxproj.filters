@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{27a318f8-bf9a-4775-a447-e38e54cb6cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{1673c066-4cf3-471c-b193-a69c5ed23904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Libraries">
+      <UniqueIdentifier>{80043ab1-95f5-4582-a5e7-b73af8829e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Logger">
+      <UniqueIdentifier>{4a547c0b-9e3d-4ddc-8c1d-68f89af2a528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Memory">
+      <UniqueIdentifier>{dd0f97a2-ea6b-43e5-a69d-012b299742be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Utils">
+      <UniqueIdentifier>{49328ac7-9382-48be-92f0-8d7b16fcea61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Utils">
+      <UniqueIdentifier>{0612cbc3-2b4e-4ce4-8fc1-dee28acf75ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Memory">
+      <UniqueIdentifier>{264ae066-518d-4e48-a501-ff91175c036d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Logger">
+      <UniqueIdentifier>{c6684761-b9b5-44d0-ae21-e03c9867674f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Libraries">
+      <UniqueIdentifier>{1c7e9a96-1fd6-42e7-9f83-15fe4be4702c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdInc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Libraries\CLibrary.cpp">
+      <Filter>Source Files\Shared\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Logger\CLogger.cpp">
+      <Filter>Source Files\Shared\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Memory\Memory.cpp">
+      <Filter>Source Files\Shared\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Utils\SharedUtils.cpp">
+      <Filter>Source Files\Shared\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdInc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Common.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Version.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Libraries\CLibrary.h">
+      <Filter>Header Files\Shared\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Logger\CLogger.h">
+      <Filter>Header Files\Shared\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Memory\Memory.h">
+      <Filter>Header Files\Shared\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Utils\SharedUtils.h">
+      <Filter>Header Files\Shared\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

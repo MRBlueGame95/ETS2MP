@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{c933d9a2-c923-4dd4-86fe-d8b23b521ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{b9615042-c1ac-462d-a9f8-504db4c17fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Libraries">
+      <UniqueIdentifier>{aaaf26d1-fb6b-4fd6-b398-7c41e1c75078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Logger">
+      <UniqueIdentifier>{223701bc-6fd7-45ef-ac84-fdc81697764f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Memory">
+      <UniqueIdentifier>{9fabc2ae-8c61-40d3-a8c9-7555dbc0686d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Utils">
+      <UniqueIdentifier>{b040fa6d-45b7-40d0-ba25-4532f83a5c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Libraries">
+      <UniqueIdentifier>{ec7a7390-343b-4cfd-981c-eaccb058893e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Logger">
+      <UniqueIdentifier>{08c47a8a-80fe-4aad-82e1-7f09890101c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Memory">
+      <UniqueIdentifier>{cf409a6c-94ae-4c68-9251-20c67caefa00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Utils">
+      <UniqueIdentifier>{3337500d-de55-4b8f-a353-33bbe3489918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{6acecbdf-1021-45b7-8feb-96bdd4f0cdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{c164c393-5b4d-4a03-8775-20ed2d5f7026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{15ae98b8-009e-4a29-b78e-e8e14e6400d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{4bd4cf28-fd4f-40ab-a48a-699a430aa1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{4412eccb-0094-4d28-a426-c37b1cda5d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{2c308bb2-2ae5-4284-929b-10d67b445ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{34ad40c1-4e66-47a2-93ed-543627f3e209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client">
+      <UniqueIdentifier>{f9ed6d42-3f7f-4599-9a8b-fea7598cc45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Archive">
+      <UniqueIdentifier>{adc21b23-9dc5-4c65-94d4-469ac9d72d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Archive">
+      <UniqueIdentifier>{4436334c-4c03-4ce5-b78e-b8264aa1bb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\ETS2">
+      <UniqueIdentifier>{5c18e3a2-ac28-48de-8edf-7ddf7b70a2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\ETS2">
+      <UniqueIdentifier>{ebdf0111-9194-48cd-a30c-8249f3473471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Hook">
+      <UniqueIdentifier>{c41d5458-5a80-4cc6-9c25-4d93d5212402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Hook\Proxy">
+      <UniqueIdentifier>{062a76bd-0a22-41d1-8a06-70914dbbdf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Hook">
+      <UniqueIdentifier>{11bd5adb-bbb6-44a9-ba63-e9016b0dfdbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Hook\Proxy">
+      <UniqueIdentifier>{065295a8-3d0d-4206-8df8-79a0bf846d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Network">
+      <UniqueIdentifier>{343caac9-8f77-4ed7-b6b0-7a3ae74630a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Network">
+      <UniqueIdentifier>{bdbfa0c9-da88-40f3-b4bb-aa1366b5376f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks">
+      <UniqueIdentifier>{eb6397ac-acff-466a-8834-8693c4ff60a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooks">
+      <UniqueIdentifier>{a3d20cbe-9fd8-404a-ab14-006297a30e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooks\WindowProcess">
+      <UniqueIdentifier>{913d7c38-950b-4277-9ca8-0e2d6c1a2d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\WindowProcess">
+      <UniqueIdentifier>{8b28eeaa-efec-41fd-97d8-e13598ac3e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooks\DirectInput">
+      <UniqueIdentifier>{7936417b-8c55-40fc-a932-9a04cea3e657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\DirectInput">
+      <UniqueIdentifier>{03deadd8-eb73-4e83-91a4-c1ec776197df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks\DirectInput\Proxy">
+      <UniqueIdentifier>{0024fab1-c32c-4539-a35a-fd77e97fb8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooks\DirectInput\Proxy">
+      <UniqueIdentifier>{b3554fdf-4d12-4a4f-b4f5-594dc2b1f5ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\ETS2\TruckETS2.h">
+      <Filter>Header Files\Game\ETS2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ETS2\CameraETS2.h">
+      <Filter>Header Files\Game\ETS2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ETS2\EconomyETS2.h">
+      <Filter>Header Files\Game\ETS2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Archive\CSCSArchive.h">
+      <Filter>Header Files\Game\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CGameOffsets.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CGamePatches.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CGameVars.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CGameHooks.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\CClient.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CGraphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Hook\CDirect3D9Hook.h">
+      <Filter>Header Files\Graphics\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Hook\Proxy\IDirect3DDevice9ProxyEx.h">
+      <Filter>Header Files\Graphics\Hook\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Hook\Proxy\IDirect3D9Proxy.h">
+      <Filter>Header Files\Graphics\Hook\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Hook\Proxy\IDirect3D9ProxyEx.h">
+      <Filter>Header Files\Graphics\Hook\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Hook\Proxy\IDirect3DDevice9Proxy.h">
+      <Filter>Header Files\Graphics\Hook\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Common.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Version.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Utils\SharedUtils.h">
+      <Filter>Header Files\Shared\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Memory\Memory.h">
+      <Filter>Header Files\Shared\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Logger\CLogger.h">
+      <Filter>Header Files\Shared\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Libraries\CLibrary.h">
+      <Filter>Header Files\Shared\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CNetwork.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Shared\Network\CPacketManager.h">
+      <Filter>Header Files\Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ETS2\CConsole.h">
+      <Filter>Header Files\Game\ETS2</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CChat.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\WindowProcess\CWindowProcess.h">
+      <Filter>Header Files\Hooks\WindowProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\DirectInput\IDirectInput8Proxy.h">
+      <Filter>Header Files\Hooks\DirectInput\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\DirectInput\IDirectInputDevice8Proxy.h">
+      <Filter>Header Files\Hooks\DirectInput\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\DirectInput\CDirectInput8Hook.h">
+      <Filter>Header Files\Hooks\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ETS2\GameETS2.h">
+      <Filter>Header Files\Game\ETS2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Archive\CSCSArchive.cpp">
+      <Filter>Source Files\Game\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CGameOffsets.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CGamePatches.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CGameVars.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CGameHooks.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\CClient.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Hook\CDirect3D9Hook.cpp">
+      <Filter>Source Files\Graphics\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Hook\Proxy\IDirect3DDevice9ProxyEx.cpp">
+      <Filter>Source Files\Graphics\Hook\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Hook\Proxy\IDirect3D9Proxy.cpp">
+      <Filter>Source Files\Graphics\Hook\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Hook\Proxy\IDirect3D9ProxyEx.cpp">
+      <Filter>Source Files\Graphics\Hook\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Hook\Proxy\IDirect3DDevice9Proxy.cpp">
+      <Filter>Source Files\Graphics\Hook\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Utils\SharedUtils.cpp">
+      <Filter>Source Files\Shared\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Memory\Memory.cpp">
+      <Filter>Source Files\Shared\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Logger\CLogger.cpp">
+      <Filter>Source Files\Shared\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Libraries\CLibrary.cpp">
+      <Filter>Source Files\Shared\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\CNetwork.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Shared\Network\CPacketManager.cpp">
+      <Filter>Source Files\Shared\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ETS2\CConsole.cpp">
+      <Filter>Source Files\Game\ETS2</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CGraphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CChat.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\WindowProcess\CWindowProcess.cpp">
+      <Filter>Source Files\Hooks\WindowProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\DirectInput\CDirectInput8Hook.cpp">
+      <Filter>Source Files\Hooks\DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\DirectInput\IDirectInputDevice8Proxy.cpp">
+      <Filter>Source Files\Hooks\DirectInput\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\DirectInput\IDirectInput8Proxy.cpp">
+      <Filter>Source Files\Hooks\DirectInput\Proxy</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

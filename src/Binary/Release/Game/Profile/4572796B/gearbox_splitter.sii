@@ -1,0 +1,120 @@
+SiiNunit
+{
+direct_gearbox_config : _nameless.1376.3468 {
+ clutch_mode: analog
+ gears: 14
+ gears[0]: _nameless.1391.C750
+ gears[1]: _nameless.1391.C788
+ gears[2]: _nameless.1391.C7C0
+ gears[3]: _nameless.1391.C7F8
+ gears[4]: _nameless.1391.C830
+ gears[5]: _nameless.1391.C868
+ gears[6]: _nameless.1391.C8A0
+ gears[7]: _nameless.1391.C8D8
+ gears[8]: _nameless.1391.C910
+ gears[9]: _nameless.1391.C948
+ gears[10]: _nameless.1391.C980
+ gears[11]: _nameless.1391.C9B8
+ gears[12]: _nameless.1391.C9F0
+ gears[13]: _nameless.1391.CA28
+}
+
+direct_gearbox_gear : _nameless.1391.C750 {
+ gear_impulse_index: 0
+ selector_1: -1
+ selector_2: -1
+ gear: 0
+}
+
+direct_gearbox_gear : _nameless.1391.C788 {
+ gear_impulse_index: 1
+ selector_1: -1
+ selector_2: -1
+ gear: -1
+}
+
+direct_gearbox_gear : _nameless.1391.C7C0 {
+ gear_impulse_index: 2
+ selector_1: 0
+ selector_2: -1
+ gear: 1
+}
+
+direct_gearbox_gear : _nameless.1391.C7F8 {
+ gear_impulse_index: 3
+ selector_1: 0
+ selector_2: -1
+ gear: 3
+}
+
+direct_gearbox_gear : _nameless.1391.C830 {
+ gear_impulse_index: 4
+ selector_1: 0
+ selector_2: -1
+ gear: 5
+}
+
+direct_gearbox_gear : _nameless.1391.C868 {
+ gear_impulse_index: 5
+ selector_1: 0
+ selector_2: -1
+ gear: 7
+}
+
+direct_gearbox_gear : _nameless.1391.C8A0 {
+ gear_impulse_index: 6
+ selector_1: 0
+ selector_2: -1
+ gear: 9
+}
+
+direct_gearbox_gear : _nameless.1391.C8D8 {
+ gear_impulse_index: 7
+ selector_1: 0
+ selector_2: -1
+ gear: 11
+}
+
+direct_gearbox_gear : _nameless.1391.C910 {
+ gear_impulse_index: 2
+ selector_1: 1
+ selector_2: -1
+ gear: 2
+}
+
+direct_gearbox_gear : _nameless.1391.C948 {
+ gear_impulse_index: 3
+ selector_1: 1
+ selector_2: -1
+ gear: 4
+}
+
+direct_gearbox_gear : _nameless.1391.C980 {
+ gear_impulse_index: 4
+ selector_1: 1
+ selector_2: -1
+ gear: 6
+}
+
+direct_gearbox_gear : _nameless.1391.C9B8 {
+ gear_impulse_index: 5
+ selector_1: 1
+ selector_2: -1
+ gear: 8
+}
+
+direct_gearbox_gear : _nameless.1391.C9F0 {
+ gear_impulse_index: 6
+ selector_1: 1
+ selector_2: -1
+ gear: 10
+}
+
+direct_gearbox_gear : _nameless.1391.CA28 {
+ gear_impulse_index: 7
+ selector_1: 1
+ selector_2: -1
+ gear: 12
+}
+
+}
